@@ -1,252 +1,314 @@
 ﻿<head>
-<meta name="viewport" content="width=device-width, initial-scale=0.80, maximum-scale=0.80, user-scalable=no">
-<meta name="google-site-verification" content="koNGuS0-pnVyRvMHs-G_vy9BVeqR6xxL8wfJ8qdZIfg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="utf-8">
 
 
   <title>Блог Алексея</title>
+<link href="/css/bootstrap.min.css?body=1" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/bootstrap-wysihtml5.css" media="screen" rel="stylesheet" type="text/css" />
+
     <%= stylesheet_link_tag    "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
-<link href="/css/bootstrap.min.css?body=1" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/bootstrap-wysihtml5.css" media="screen" rel="stylesheet" type="text/css" />
 
   </head>
 
   <body>
-  <div class="conainer">
-<nav class="navbar navbar-inverse navbar-fixed-top">
 
-  <div class="navbar-header">
-    
-    <a class="navbar-brand" href="/"><i class="glyphicon glyphicon-home"></i> Блог</a>
-    
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    
-  </div>
-  <div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-              
-              <% if admin? %>
 
-               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Админ<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><%= link_to "Добавить запись", new_post_path %></li>
-                  <li><%= link_to "Добавить категорию", new_category_path %></li>
-                  <li class="divider"></li>
-                  <li><%= link_to "Управление пользователями", users_path %></li>
-                  <li><%= link_to "Управление категориями", categories_path %></li>
-                </ul>
-              </li>
-              
-              <% end %> 
-    </ul>
 
-<ul class="nav navbar-nav navbar-right">
 
-                <% if user_signed_in? %>
-				<% if current_user.user_pic and (current_user.user_pic.include? ".png" or current_user.user_pic.include? ".jpg" or current_user.user_pic.include? ".gif") %>
-            <% picture = current_user.user_pic %>
-    <% else %>
-        <% picture = "/assets/default-user.png" %>
-        <% end %>
-        
-          <li class="dropdown">
-              
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=image_tag picture, :size => "45x45", :style => "border-radius: 10px;"%> <%=current_user.name%><b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><%= link_to('Просмотреть профиль', user_path(current_user)) %></li>  
-                  <li><%= link_to('Изменить профиль', edit_user_registration_path) %></li>
-                  <li class="divider"></li>
-                  <li><%= link_to "Выход ", destroy_user_session_path, :method => :delete %></li>
-                </ul>
-          </li>
-        <% else %>
-          <li><a href="#sign-up" role="button" data-toggle="modal">Регистриция</a></li>  
-          <li class="dropdown">
-                     <a href="/" class="dropdown-toggle" data-toggle="dropdown">Вход <b class="caret"></b></a>
-                     <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
-                        <li>
-                           <div class="row" style="margin-bottom:-15">
-                              <div class="col-md-12">
-                                 <%= simple_form_for("user", :as => "user", :id => "login-nav",:url => user_session_path, :html => { :class => "form"}) do |f| %>
-                                    <div class="form-group">
-  <%= f.email_field :email, :class => "form-control input-md", :required => true, :autofocus => true, :placeholder => "Введите E-mail"   , :style => " width:100%" %>
-  </div>
-                                      <div class="form-group">
-  <%= f.password_field :password, :required => true, :placeholder => "Введите пароль", :style => " width:100%" ,:class => "form-control input-md" %>
-  </div>
-  <%= f.check_box :remember_me %> <label class="control-label">Запомнить меня</label>
- <div class="form-group">
- <%= button_tag(:type => 'submit', :class => 'btn btn-primary', :style => " width:100%" ) do %>
-	<%= glyph(:glyphicon, :glyphicon_ok_sign)%> Войти
- <% end %>
+<div class="page-container">
   
-
-</div> 
- 
-                              <% end %>
-                              </div>
-                           </div>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-<form action="/users/auth/google_oauth2" method="post">
- <div class="form-group">
-  <!--<input class="button btn btn-danger" name="commit" style=" width:100%" type="submit" value="Войти с помощью Google">
--->
-  <%= button_tag(:type => 'submit', :class => 'btn btn-danger', :style => " width:100%" ) do %>
-	<%= glyph(:glyphicon, :glyphicon_ok_circle)%> Войти с помощью Google
- <% end %>
-</div> 
- 
-</form>
-                        </li>
-                     </ul>
-                  </li>
-            <% end %>
-          </ul>              
+	<!-- top navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    	<div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="/">Блог Алексея</a>
+    	</div>
     </div>
-</nav>  
-
-
       
-
-
-
-
-
-<div class="modal fade" id="sign-up" tabindex="0" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" style="width: 70%;">
-      <div class="modal-content">
-        <!--<div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h4 class="modal-title">Войдите пожалуйста</h4>
-        </div>
-        -->
-        <div class="modal-body">
-          <%= simple_form_for("user", :as => "user",
-                              :url => registration_path("user"),
-                              :html => { :class => "form-horizontal"}) do |f| %>
-
-<fieldset>
-
-<!-- Form Name -->
-<legend>Зарегистрируйтесь</legend>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-3 control-label" for="textinput">Введите Имя</label>  
-  <div class="col-md-6">
-  <%= f.text_field :name, :class => "form-control input-md", :required => true, :autofocus => true, :style => " width:100%" %>
-  </div>
-</div>
-
-
-<div class="form-group">
-  <label class="col-md-3 control-label" for="textinput">Введите E-mail</label>  
-  <div class="col-md-6">
-  <%= f.email_field :email, :class => "form-control input-md", :required => true, :style => " width:100%" %>
-  </div>
-</div>
-
-<!-- Password input-->
-<div class="form-group">
-  <label class="col-md-3 control-label" for="passwordinput">Введите пароль</label>
-  <div class="col-md-6">
-  <%= f.password_field :password, :required => true, :style => " width:100%" ,:class => "form-control input-md" %>
-  </div>
-  <label class="col-md-3">(минимум 5 символов)</label>
-</div>
-<div class="form-group">
-  <label class="col-md-3 control-label" for="passwordinput">Повторите пароль</label>
-  <div class="col-md-6">
-  <%= f.password_field :password, :required => true, :placeholder => "", :style => " width:100%" ,:class => "form-control input-md" %>
-  </div>
-</div>
-
-</fieldset>
-        </div>
-        <div class="modal-footer">
-          
-
-
-          <div align="center">
-<div class="col-md-4 m01">
-<%= f.button :submit, "Регистрация", :class => "btn btn-success", :style => " width:100%" %>
-
-</div>
-<div class="col-md-4 m01">
-
-    <%= link_to "Войти с помощью Google", user_omniauth_authorize_path(:google_oauth2), :class => "btn btn-primary" , :style => " width:100%" %>
-</div>
-<div class="col-md-4 m01">
-
-<a href="#" data-dismiss="modal" class="btn btn-warning" style=" width:100%;">Закрыть</a>
-</div>
-
-</div>
-
-          <% end %>
-        </div>
-      </div>
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-      
-        <div class="col-md-3">
-<div class="col-sm-12">
-        <div id="sidebar" class="affix">
-           <h3 align="center" class="breadcrumb block-min" style="margin-top:40;"><i class="glyphicon glyphicon-arrow-down"></i> Категории <%= glyph(:glyphicon, :glyphicon_arrow_down)%></h3>
-
-
-          <div class="list-group" id="accordion">
-           <% Category.all.each do |category| %>
-   <!--           
-              <%= link_to(category, :class => "list-group-item active") do %>
-  <%= category.title %><span class="badge"><%= category.posts.size.to_s %></span>
-<% end %>
--->
-
-<%= link_to('#', :class => "list-head list-group-item active") do %>
-  <%= category.title %><span class="badge"><%= category.posts.size.to_s %></span>
-<% end %>
-            <div class="categoryupdown">
-              <% category.posts.each do |post| %>
-                <div class="list-group-item">
-                <%= link_to post.title, post %>
-                </div>
-              <% end %>
-            </div>
-           <% end %>
+    <div class="col-sm-12">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div data-spy="affix" data-offset-top="45" data-offset-bottom="90">
+            <ul class="nav" id="sidebar-nav">
+              <li><a href="/">Блог</a></li>
+              <li><a href="#section1">Категории</a></li>
+              <li><a href="#section2">ууу</a></li>
+              <li><a href="#section3">ыыы</a></li>
+            </ul>
            </div>
         </div>
-        </div>
-  </div>
-        <div class="col-md-9"style="margin-top:25;">
-          <%= yield %>
-        </div>
+  	
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
+          
+<%= yield%>
+
+                    
+
+          <div class="row">
+           <div class="col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading"><a href="#" class="pull-right">Смотреть все</a> <h4>Категории</h4></div>
+                    <div class="panel-body">
+
+											<% Category.all.each do |category| %>
+                      	<div class="list-group">
+                      		<%= link_to(category, :class => "list-group-item active") do %>
+														<%= category.title %><span class="badge"><%= category.posts.size.to_s %></span>
+													<% end %>
+              						<% category.posts.each do |post| %>
+														<%= link_to(post, :class => "list-group-item") do %>
+															<%= post.title %>
+														<% end %>
+			        						<% end %>          
+              					</div>
+              				<% end %>          
+                      
+                    </div>
+                </div>
+             
 
 
+                <div class="well"> 
+                     <form class="form-horizontal" role="form">
+                      <h4>What's New</h4>
+                       <div class="form-group" style="padding:14px;">
+                        <textarea class="form-control" placeholder="Update your status"></textarea>
+                      </div>
+                      
+                       <button class="btn btn-success pull-right" type="button">Post</button><ul class="list-inline"><li><a href="#"><i class="glyphicon glyphicon-align-left"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-center"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-right"></i></a></li></ul>
+                    </form>
+                </div>
+             
+                <div class="panel panel-default">
+                   <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Responsive Design</h4></div>
+                    <div class="panel-body">
+                      <p><img src="//placehold.it/100" class="img-circle pull-right"> <a href="#">Bootstrap Playground</a></p>
+                      <div class="clearfix"></div>
+                      <hr>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                      Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                      dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                      Aliquam in felis sit amet augue.
+                      <hr>
+                      <div class="btn-group pull-right btn-toggle"> 
+                        <button class="btn btn-default">ON</button>
+                        <button class="btn btn-primary active">OFF</button>
+                      </div>  
+                      
+                    </div>
+                 </div>
+        
+            </div>
 
-    <div id="footer">
-    <div class="modal fade" aria-hidden="true">
-    <div class="pop-ups">
-       <div class="notice-message"><%= notice %></div>
-       <div class="alert-message"><%= alert %></div>
-    </div>
-    </div>
-      <div class="container" align='center'>
+            <div class="col-sm-6">
+                 
+                  <div class="well"> 
+                     <form class="form">
+                      <h4>Sign-up</h4>
+                      <div class="input-group text-center">
+                      <input type="text" class="form-control input-lg" title="Don't worry. We hate spam, and will not share your email with anyone." placeholder="Enter your email address">
+                        <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
+                      </div>
+                    </form>
+                  </div>
+        
+                 <div class="panel panel-default">
+                   <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>People You May Know</h4></div>
+                    <div class="panel-body">
+                      <p><img src="//placehold.it/100" class="img-circle pull-right"> <a href="#">Bootstrap Playground</a></p>
+                      <div class="clearfix"></div>
+                      <hr>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                      Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                      dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                      Aliquam in felis sit amet augue.
+                      <hr>
+                      <div class="btn-group pull-right btn-toggle"> 
+                        <button class="btn btn-default">ON</button>
+                        <button class="btn btn-primary active">OFF</button>
+                      </div>  
+                      
+                    </div>
+                 </div>
+              
+                 <div class="panel panel-default">
+                   <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Portlet Heading</h4></div>
+                    <div class="panel-body">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <span href="#" class="btn-group btn-toggle pull-right"> 
+                        	<button class="btn btn-xs btn-default">On</button>
+                        	<button class="btn btn-xs btn-primary active">Off</button>
+                       	  </span>  
+                          Bootply
+                        </li>
+                      <li class="list-group-item">
+                        <span href="#" class="btn-group btn-toggle pull-right"> 
+                        	<button class="btn btn-xs btn-primary active">On</button>
+                        	<button class="btn btn-xs btn-default">Off</button>
+                       	  </span> Templates</li>
+                      <li class="list-group-item">
+                        <span href="#" class="btn-group btn-toggle pull-right"> 
+                        	<button class="btn btn-xs btn-default">On</button>
+                        	<button class="btn btn-xs btn-primary active">Off</button>
+                       	  </span> Snippets</li>
+                      </ul>
+                    </div>
+                 </div>
+              
+            </div>
+          </div><!--/row-->
+          
+          
+          <h1 id="section1">Section 1</h1>
+  
+          <div class="panel panel-default">
+          <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Newest Items</h4></div>
+   			<div class="panel-body">
+              <div class="list-group">
+                <a href="#" class="list-group-item active">Active item</a>
+                <a href="#" class="list-group-item">Second item</a>
+                <a href="#" class="list-group-item">Third item</a>
+              </div>
+            </div>
+   		</div>
+          
+          <hr>
+  
+          <h1 id="section3">Elements</h1>
+          <div class="row">
+              <div class="col-md-12">
+                <div class="alert alert-info alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+              <div class="panel panel-default">
+                 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Buttons &amp; Labels</h4></div>
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-xs-4"><a class="btn btn-default center-block" href="#">Button</a></div>
+                      <div class="col-xs-4"><a class="btn btn-primary center-block" href="#">Primary</a></div>
+                      <div class="col-xs-4"><a class="btn btn-danger center-block" href="#">Danger</a></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <div class="col-xs-4"><a class="btn btn-warning center-block" href="#">Warning</a></div>
+                      <div class="col-xs-4"><a class="btn btn-info center-block" href="#">Info</a></div>
+                      <div class="col-xs-4"><a class="btn btn-success center-block" href="#">Success</a></div>
+                    </div>
+                    <hr>
+                    <div class="btn-group btn-group-sm"><button class="btn btn-default">1</button><button class="btn btn-default">2</button><button class="btn btn-default">3</button></div>              
+                    <hr>
+                    <div class="row">
+                    <div class="col-md-4">
+                      <span class="label label-default">Label</span>
+                      <span class="label label-success">Success</span>
+                      
+                    </div>
+                    <div class="col-md-4">
+                      <span class="label label-warning">Warning</span>  
+                      <span class="label label-info">Info</span>
+                    </div>
+                    <div class="col-md-4">
+                      <span class="label label-danger">Danger</span>
+                      <span class="label label-primary">Primary</span>
+                      </div>
+                    </div>
+                    
+                  </div>
+               </div> 
+          </div>
+           <div class="col-md-6 col-sm-6">
+              <div class="panel panel-default">
+                 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Progress Bars</h4></div>
+                  <div class="panel-body">
+                    
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success" style="width: 40%"></div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-warning" style="width: 80%"></div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger" style="width: 50%"></div>
+                    </div>
+                    
+                  </div>
+               </div> 
+          </div>
+           <div class="col-md-6 col-sm-6">
+              <div class="panel panel-default">
+                 <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Tabs</h4></div>
+                  <div class="panel-body">
       
-      </div>
-    </div>
+                      <ul class="nav nav-tabs">
+                        <li class="active"><a href="#A" data-toggle="tab">Section 1</a></li>
+                        <li><a href="#B" data-toggle="tab">Section 2</a></li>
+                        <li><a href="#C" data-toggle="tab">Section 3</a></li>
+                      </ul>
+                      <div class="tabbable">
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="A">
+                            <div class="well well-sm">I'm in Section A.</div>
+                          </div>
+                          <div class="tab-pane" id="B">
+                            <div class="well well-sm">Howdy, I'm in Section B.</div>
+                          </div>
+                          <div class="tab-pane" id="C">
+                            <div class="well well-sm">I've decided that I like wells.</div>
+                          </div>
+                        </div>
+                      </div> <!-- /tabbable -->
+                    
+                      
+                    
+                  </div>
+               </div> 
+          </div><!--playground-->
+          
+          <br>
+          
+          
+          
+        </div><!-- /.col-xs-12 main -->
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
+
 </div>
-</div>
+
+
+            <div id="push"></div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--<%= javascript_include_tag "/js/bootstrap.min.js"%>
 <%= javascript_include_tag "/js/share42.js"%>
 <%= javascript_include_tag "/js/jquery.easing.1.3.js"%>

@@ -180,3 +180,3741 @@ No secret token environment variable set
 Unable to get OPENSHIFT_SECRET_TOKEN, using default
 No secret token environment variable set
 Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+Connecting to database specified by database.yml
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 01:26:47 +0600
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+Processing by PostsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+Completed 200 OK in 467ms (Views: 464.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 01:26:47 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /messenger.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /application.css - 200 OK (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /messenger.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /jquery_ujs.js - 200 OK (10ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /flasher.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /share42.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /comments.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /application.js - 200 OK (28ms)
+
+
+Started GET "/assets/paper_005.jpg" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /paper_005.jpg - 304 Not Modified (52ms)
+
+
+Started GET "/assets/block-background.png" for 127.0.0.1 at 2014-01-15 01:26:48 +0600
+Served asset /block-background.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Compiled application.css  (7ms)  (pid 27403)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /application.css - 200 OK (52ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /share42.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:42:02 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPrx+MXETjQqbS37Sy6yEHlVTaP0GniYlXX38VXUsEg=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPrx+MXETjQqbS37Sy6yEHlVTaP0GniYlXX38VXUsEg=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+Completed 200 OK in 105ms (Views: 51.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:06 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-01-15 01:45:40 +0600
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPrx+MXETjQqbS37Sy6yEHlVTaP0GniYlXX38VXUsEg=", "user"=>{"name"=>"иван", "email"=>"vanopiano@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Регистрация"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'vanopiano@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (5.5ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+Completed 200 OK in 399ms (Views: 39.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:41 +0600
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-01-15 01:45:50 +0600
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPrx+MXETjQqbS37Sy6yEHlVTaP0GniYlXX38VXUsEg=", "user"=>{"name"=>"иван", "email"=>"vanopiano@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Зарегистрироваться"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'vanopiano@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (29.4ms)[0m  [1mINSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "is_blogger", "last_sign_in_at", "last_sign_in_ip", "name", "provider", "remember_created_at", "sign_in_count", "uid", "updated_at", "user_pic") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 14 Jan 2014 19:45:50 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "vanopiano@gmail.com"], ["encrypted_password", "$2a$10$5cASwmgumuMet00Xk66wVeOoHm3AZA8bR9WxO4n7ECHqvFTdAeAgO"], ["is_blogger", nil], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["name", "иван"], ["provider", nil], ["remember_created_at", nil], ["sign_in_count", 0], ["uid", nil], ["updated_at", Tue, 14 Jan 2014 19:45:50 UTC +00:00], ["user_pic", nil]]
+  [1m[35m (130.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2014-01-14 19:45:50.913093', "current_sign_in_at" = '2014-01-14 19:45:50.913093', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2014-01-14 19:45:50.914563' WHERE "users"."id" = 1
+  [1m[36m (95.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 451ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "is_blogger" = 't', "updated_at" = '2014-01-14 19:45:51.112293' WHERE "users"."id" = 1
+  [1m[36m (110.0ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 198ms (Views: 86.3ms | ActiveRecord: 111.2ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 01:45:51 +0600
+Served asset /default-user.png - 200 OK (3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."user_id" = 1
+  Rendered users/show.html.erb within layouts/application (74.1ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 144ms (Views: 140.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /messenger.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:45:57 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Processing by CategoriesController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered categories/new.html.erb within layouts/application (25.3ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 68ms (Views: 55.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /messenger.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /jquery.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:11 +0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPrx+MXETjQqbS37Sy6yEHlVTaP0GniYlXX38VXUsEg=", "category"=>{"title"=>"новая"}, "commit"=>"Создать Категорию"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE ("slug" = 'novaya' OR "slug" LIKE 'novaya--%'ESCAPE '\') ORDER BY LENGTH("slug") DESC, "slug" DESC LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "categories" ("created_at", "slug", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 14 Jan 2014 19:46:18 UTC +00:00], ["slug", "novaya"], ["title", "новая"], ["updated_at", Tue, 14 Jan 2014 19:46:18 UTC +00:00]]
+  [1m[36m (136.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/categories/novaya
+Completed 302 Found in 378ms (ActiveRecord: 137.0ms)
+
+
+Started GET "/categories/novaya" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"novaya"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."slug" = 'novaya' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered categories/show.html.erb within layouts/application (9.0ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Completed 200 OK in 49ms (Views: 42.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Served asset /messenger.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:18 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:19 +0600
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered posts/new.html.erb within layouts/application (6.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Completed 200 OK in 98ms (Views: 74.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:25 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:26 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 01:46:26 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPrx+MXETjQqbS37Sy6yEHlVTaP0GniYlXX38VXUsEg=", "post"=>{"title"=>"Название", "body"=>"сььаь", "category_id"=>"1"}, "_wysihtml5_mode"=>"1", "commit"=>"Добавить запись"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE ("slug" = 'nazvanie' OR "slug" LIKE 'nazvanie--%'ESCAPE '\') ORDER BY LENGTH("slug") DESC, "slug" DESC LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "posts" ("body", "category_id", "created_at", "slug", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["body", "сььаь"], ["category_id", 1], ["created_at", Tue, 14 Jan 2014 19:46:35 UTC +00:00], ["slug", "nazvanie"], ["title", "Название"], ["updated_at", Tue, 14 Jan 2014 19:46:35 UTC +00:00], ["user_id", nil]]
+  [1m[35m (227.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/nazvanie
+Completed 302 Found in 240ms (ActiveRecord: 228.6ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (14.4ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (44.0ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 187ms (Views: 80.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 01:46:35 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 01:46:36 +0600
+Served asset /icons.png - 200 OK (2ms)
+Connecting to database specified by database.yml
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 01:58:03 +0600
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered comments/_form.html.haml (238.8ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc[0m
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (293.9ms)
+Compiled application.css  (7ms)  (pid 18372)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Completed 200 OK in 617ms (Views: 442.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:58:04 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /application.css - 200 OK (26ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /messenger.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (55ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /flasher.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /share42.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /messenger.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /comments.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /application.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /default-user.png - 304 Not Modified (7ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 01:58:05 +0600
+Served asset /icons.png - 304 Not Modified (3ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 01:58:59 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (1.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (4.0ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (41.5ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 84ms (Views: 73.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 01:59:00 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (109.4ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 142ms (Views: 138.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 01:59:14 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (18.3ms)
+Compiled application.css  (7ms)  (pid 18372)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 95ms (Views: 91.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /application.css - 200 OK (25ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /messenger.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:01:10 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:04:18 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (12.9ms)
+Compiled application.css  (8ms)  (pid 18372)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 69ms (Views: 66.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:18 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /application.css - 200 OK (70ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:19 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:04:55 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (15.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 76ms (Views: 72.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:04:56 +0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (14.2ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 75ms (Views: 72.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /messenger.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:09 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (12.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 67ms (Views: 63.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:16 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:17 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:17 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:17 +0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:05:17 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (13.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 53ms (Views: 49.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /messenger.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:17 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/nazvanie/edit" for 127.0.0.1 at 2014-01-15 02:06:51 +0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered posts/edit.html.erb within layouts/application (6.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 63ms (Views: 36.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /messenger.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/nazvanie/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:06:52 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/nazvanie/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/posts/nazvanie/edit" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered posts/edit.html.erb within layouts/application (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 66ms (Views: 58.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /messenger.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /share42.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:11:00 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/nazvanie/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (23.5ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 59ms (Views: 55.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:11:03 +0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (23.9ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /flasher.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:14:32 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (17.9ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 48ms (Views: 45.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:19:01 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (19.0ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:14 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (15.6ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /messenger.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /messenger.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:22:52 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:23:20 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (15.2ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 48ms (Views: 44.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:23:21 +0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:24:40 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (13.8ms)
+Compiled application.css  (6ms)  (pid 18372)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 69ms (Views: 66.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /messenger.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /application.css - 200 OK (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:41 +0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:24:54 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (19.2ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 50ms (Views: 47.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /messenger.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:24:55 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (14.0ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 55ms (Views: 51.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:04 +0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (14.3ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 76ms (Views: 72.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:25 +0600
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Processing by PostsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (13.5ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 46ms (Views: 43.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:31 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:25:58 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered comments/_form.html.haml (4.4ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc[0m
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (14.4ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 81ms (Views: 73.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:58 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:58 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /messenger.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:25:59 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:27:38 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (4.0ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (17.0ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 54ms (Views: 46.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /messenger.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:27:39 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered comments/_form.html.haml (4.1ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc[0m
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (47.2ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 88ms (Views: 77.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /messenger.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:27:54 +0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:27:55 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:27:55 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (4.2ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (14.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 54ms (Views: 44.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /messenger.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /messenger.js - 304 Not Modified (62ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:28:25 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:28:39 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered comments/_form.html.haml (4.1ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc[0m
+  Rendered comments/_comment.html.haml (0.0ms)
+  Rendered posts/show.html.erb within layouts/application (21.4ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 57ms (Views: 49.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /messenger.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:28:40 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2014-01-15 02:29:06 +0600
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JPrx+MXETjQqbS37Sy6yEHlVTaP0GniYlXX38VXUsEg=", "comment"=>{"body"=>"yjfdq", "commentable_id"=>"1", "commentable_type"=>"Post"}, "_wysihtml5_mode"=>"1", "commit"=>"Добавить комментарий"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = '1' LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mComment Load (2.7ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY "comments"."rgt" desc LIMIT 1
+  [1m[36mSQL (9.8ms)[0m  [1mINSERT INTO "comments" ("body", "commentable_id", "commentable_type", "created_at", "lft", "parent_id", "rgt", "subject", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["body", "yjfdq"], ["commentable_id", 1], ["commentable_type", "Post"], ["created_at", Tue, 14 Jan 2014 20:29:06 UTC +00:00], ["lft", 1], ["parent_id", nil], ["rgt", 2], ["subject", ""], ["title", ""], ["updated_at", Tue, 14 Jan 2014 20:29:06 UTC +00:00], ["user_id", 1]]
+  [1m[35m (125.5ms)[0m  commit transaction
+  Rendered comments/_comment.html.haml (10.5ms)
+Completed 201 Created in 174ms (Views: 21.0ms | ActiveRecord: 138.8ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 02:29:06 +0600
+Served asset /default-user.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (4.2ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.haml (8.3ms)
+  Rendered posts/show.html.erb within layouts/application (27.0ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 65ms (Views: 56.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /messenger.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 02:30:54 +0600
+Served asset /default-user.png - 304 Not Modified (1ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:30:55 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:30:55 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (3.9ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.haml (3.0ms)
+  Rendered posts/show.html.erb within layouts/application (17.5ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 50ms (Views: 44.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+Served asset /default-user.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:31:03 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:31:04 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (4.0ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.haml (3.1ms)
+  Rendered posts/show.html.erb within layouts/application (18.0ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 90ms (Views: 80.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+Served asset /default-user.png - 304 Not Modified (5ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:31:21 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:31:22 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (4.0ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.haml (3.0ms)
+  Rendered posts/show.html.erb within layouts/application (17.8ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 52ms (Views: 45.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /messenger.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+Served asset /default-user.png - 304 Not Modified (16ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:32:02 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:32:03 +0600
+Served asset /icons.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/nazvanie" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"nazvanie"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."slug" = 'nazvanie' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered comments/_form.html.haml (4.0ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post' ORDER BY created_at desc
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.haml (3.0ms)
+  Rendered posts/show.html.erb within layouts/application (17.7ms)
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1
+Completed 200 OK in 59ms (Views: 48.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/default-user.png" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /default-user.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/css/bootstrap3-wysiwyg5-color.css" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+
+ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wysiwyg5-color.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vanopiano/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vanopiano/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 02:32:43 +0600
+Served asset /icons.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Processing by PostsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts" [0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  Rendered posts/index.html.erb within layouts/application (16.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts" WHERE "posts"."category_id" = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."category_id" = 1[0m
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /messenger-spinner.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /messenger.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /messenger-theme-future.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /messenger.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /flasher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /share42.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 02:33:30 +0600
+Served asset /application.js - 304 Not Modified (3ms)

@@ -1,0 +1,223 @@
+
+
+
+
+
+
+  <div class="conainer">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+  <div class="navbar-header">
+    
+    <a class="navbar-brand" href="/"><i class="glyphicon glyphicon-home"></i> Блог</a>
+    
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+              
+              <% if admin? %>
+
+               <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Админ<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><%= link_to "Добавить запись", new_post_path %></li>
+                  <li><%= link_to "Добавить категорию", new_category_path %></li>
+                  <li class="divider"></li>
+                  <li><%= link_to "Управление пользователями", users_path %></li>
+                  <li><%= link_to "Управление категориями", categories_path %></li>
+                </ul>
+              </li>
+              
+              <% end %> 
+    </ul>
+
+<ul class="nav navbar-nav navbar-right">
+
+                <% if user_signed_in? %>
+				<% if current_user.user_pic and (current_user.user_pic.include? ".png" or current_user.user_pic.include? ".jpg" or current_user.user_pic.include? ".gif") %>
+            <% picture = current_user.user_pic %>
+    <% else %>
+        <% picture = "/assets/default-user.png" %>
+        <% end %>
+        
+          <li class="dropdown">
+              
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=image_tag picture, :size => "45x45", :style => "border-radius: 10px;"%> <%=current_user.name%><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><%= link_to('Просмотреть профиль', user_path(current_user)) %></li>  
+                  <li><%= link_to('Изменить профиль', edit_user_registration_path) %></li>
+                  <li class="divider"></li>
+                  <li><%= link_to "Выход ", destroy_user_session_path, :method => :delete %></li>
+                </ul>
+          </li>
+        <% else %>
+          <li><a href="#sign-up" role="button" data-toggle="modal">Регистриция</a></li>  
+          <li class="dropdown">
+                     <a href="/" class="dropdown-toggle" data-toggle="dropdown">Вход <b class="caret"></b></a>
+                     <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+                        <li>
+                           <div class="row" style="margin-bottom:-15">
+                              <div class="col-md-12">
+                                 <%= simple_form_for("user", :as => "user", :id => "login-nav",:url => user_session_path, :html => { :class => "form"}) do |f| %>
+                                    <div class="form-group">
+  <%= f.email_field :email, :class => "form-control input-md", :required => true, :autofocus => true, :placeholder => "Введите E-mail"   , :style => " width:100%" %>
+  </div>
+                                      <div class="form-group">
+  <%= f.password_field :password, :required => true, :placeholder => "Введите пароль", :style => " width:100%" ,:class => "form-control input-md" %>
+  </div>
+  <%= f.check_box :remember_me %> <label class="control-label">Запомнить меня</label>
+ <div class="form-group">
+ <%= button_tag(:type => 'submit', :class => 'btn btn-primary', :style => " width:100%" ) do %>
+	<%= glyph(:glyphicon, :glyphicon_ok_sign)%> Войти
+ <% end %>
+  
+
+</div> 
+ 
+                              <% end %>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+<form action="/users/auth/google_oauth2" method="post">
+ <div class="form-group">
+  <!--<input class="button btn btn-danger" name="commit" style=" width:100%" type="submit" value="Войти с помощью Google">
+-->
+  <%= button_tag(:type => 'submit', :class => 'btn btn-danger', :style => " width:100%" ) do %>
+	<%= glyph(:glyphicon, :glyphicon_ok_circle)%> Войти с помощью Google
+ <% end %>
+</div> 
+ 
+</form>
+                        </li>
+                     </ul>
+                  </li>
+            <% end %>
+          </ul>              
+    </div>
+</nav>  
+
+
+      
+
+
+
+
+
+<div class="modal fade" id="sign-up" tabindex="0" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" style="width: 70%;">
+      <div class="modal-content">
+        <!--<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Войдите пожалуйста</h4>
+        </div>
+        -->
+        <div class="modal-body">
+          <%= simple_form_for("user", :as => "user",
+                              :url => registration_path("user"),
+                              :html => { :class => "form-horizontal"}) do |f| %>
+
+<fieldset>
+
+<!-- Form Name -->
+<legend>Зарегистрируйтесь</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-3 control-label" for="textinput">Введите Имя</label>  
+  <div class="col-md-6">
+  <%= f.text_field :name, :class => "form-control input-md", :required => true, :autofocus => true, :style => " width:100%" %>
+  </div>
+</div>
+
+
+<div class="form-group">
+  <label class="col-md-3 control-label" for="textinput">Введите E-mail</label>  
+  <div class="col-md-6">
+  <%= f.email_field :email, :class => "form-control input-md", :required => true, :style => " width:100%" %>
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-3 control-label" for="passwordinput">Введите пароль</label>
+  <div class="col-md-6">
+  <%= f.password_field :password, :required => true, :style => " width:100%" ,:class => "form-control input-md" %>
+  </div>
+  <label class="col-md-3">(минимум 5 символов)</label>
+</div>
+<div class="form-group">
+  <label class="col-md-3 control-label" for="passwordinput">Повторите пароль</label>
+  <div class="col-md-6">
+  <%= f.password_field :password, :required => true, :placeholder => "", :style => " width:100%" ,:class => "form-control input-md" %>
+  </div>
+</div>
+
+</fieldset>
+        </div>
+        <div class="modal-footer">
+          
+
+
+          <div align="center">
+<div class="col-md-4 m01">
+<%= f.button :submit, "Регистрация", :class => "btn btn-success", :style => " width:100%" %>
+
+</div>
+<div class="col-md-4 m01">
+
+    <%= link_to "Войти с помощью Google", user_omniauth_authorize_path(:google_oauth2), :class => "btn btn-primary" , :style => " width:100%" %>
+</div>
+<div class="col-md-4 m01">
+
+<a href="#" data-dismiss="modal" class="btn btn-warning" style=" width:100%;">Закрыть</a>
+</div>
+
+</div>
+
+          <% end %>
+        </div>
+      </div>
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+      
+        <div class="col-md-3">
+<div class="col-sm-12">
+        <div id="sidebar" class="affix">
+           <h3 align="center" class="breadcrumb block-min" style="margin-top:40;"><i class="glyphicon glyphicon-arrow-down"></i> Категории <%= glyph(:glyphicon, :glyphicon_arrow_down)%></h3>
+
+
+          <div class="list-group" id="accordion">
+           
+           </div>
+        </div>
+        </div>
+  </div>
+        <div class="col-md-9"style="margin-top:25;">
+          <%= yield %>
+        </div>
+
+
+
+    <div id="footer">
+    <div class="modal fade" aria-hidden="true">
+    <div class="pop-ups">
+       <div class="notice-message"><%= notice %></div>
+       <div class="alert-message"><%= alert %></div>
+    </div>
+    </div>
+      <div class="container" align='center'>
+      
+      </div>
+    </div>
+</div>
+</div>
+
