@@ -1,0 +1,53 @@
+
+<div class="col-sm-12 col-md-9">
+   
+<ul class="breadcrumb">
+        <li>
+        <%= link_to 'Блог', root_path%>
+        </li>
+        <li>
+        <%= link_to @post.category.title, category_path(@post.category)%>
+        </li>
+        <li class="active">
+          <%= @post.title %>
+        </li>
+      </ul>
+<div align="center">
+        <div class="block w100">
+         <legend class="w100" style="margin-bottom:-10; margin-top:-15"><h3><%= @post.title %></h3></legend>
+                    <div class="post-big-description" align="left">
+                        <p>
+                            <%= @post.body.html_safe %>
+                        </p>
+                    </div>
+
+    <% if admin? %>
+    <%= link_to(edit_post_path(@post), :class => "btn btn-success", :style => " width:33%") do %>
+            <i class="glyphicon glyphicon-edit"></i> Редактировать
+            <% end %>
+            <%= link_to(@post, :class => "btn btn-danger", :method => :delete, :confirm => "Вы уверены?", :style => " width:33%" ) do %>
+                <i class="glyphicon glyphicon-trash"></i> Удалить
+            <% end %>
+
+<% end %> 
+
+
+      </div> 
+</div>
+</div>
+<div class="col-sm-12 col-md-3">
+<div id="sharebar" class="affix">
+          <h4 align="center" class="breadcrumb share-style">Поделиться
+            <div class="g-plusone"></div>
+         <div class="share42init" data-zero-counter="0" style="margin-top:5;"></div>
+         <script type="text/javascript">
+  window.___gcfg = {lang: 'ru'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+          </h4>
+        </div> </div>

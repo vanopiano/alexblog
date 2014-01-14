@@ -1,0 +1,38 @@
+<div id="post-1">
+  <h1 class="postTitle text-center"><a href="#"><%= page_title %></a></h1>
+  <div class="post">
+<form>
+  <div class="col-sm-8">
+  
+  <%= simple_form_for(@post, :html => {:class => 'form' }) do |f| %>
+
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% @post.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.text_field :title, :class => "form-control"%>
+  </div>
+
+  <div class="field">
+    <%= f.text_area :body, :id => "body-text", :class => "form-control"%>
+  </div>
+  
+ <ul class="button-group round">
+ 	<li><%= f.submit "Обновить", :class => "button success"%></li>
+    <li><%= link_to "Назад", :back, :class => "button secondary" %></li>
+</ul>
+  <% end %>
+</div>
+  
+</form>
+  </div>
+</div>

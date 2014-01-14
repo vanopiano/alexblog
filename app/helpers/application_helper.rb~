@@ -1,0 +1,15 @@
+#coding: utf-8
+module ApplicationHelper
+
+	
+  def readable_date(d)
+	
+	d.getlocal.strftime("%d.%m.%Y").to_s+"в"+d.getlocal.strftime("%H:%M").to_s
+  end
+
+def render_title
+  return @title if defined?(@title)
+  "страница"
+end
+
+end

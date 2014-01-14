@@ -1,0 +1,48 @@
+<div align='center' style="margin-top:0">
+        <div class="block w100" >
+           <!-- <h1 align="center">Новая запись</h1> -->
+    
+<%= simple_form_for @post, :html => { :class => "form-horizontal"} do |f| %>
+  
+<fieldset>
+
+<!-- Form Name -->
+<legend>Редактировать запись</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <%= f.text_field :title, :class => "form-control input-md", :required => true, :autofocus => true, :placeholder => "Введите название"   , :style => " width:97%" %>
+  
+</div>
+
+ <%= f.text_area :body , :rows => 13, :id => "post_body", :placeholder => "Введите текст ...", :class => "form-control w"%>
+ <script src="/js/wysihtml5-0.3.0.min.js"></script>
+<script src="/js/bootstrap3-wysihtml5.js"></script>
+<script>
+
+    $('.w').wysihtml5({
+                "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+                "emphasis": true, //Italics, bold, etc. Default true
+                "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+                "html": true, //Button which allows you to edit the generated HTML. Default false
+                "link": true, //Button to insert a link. Default true
+                "image": false, //Button to insert an image. Default true,
+                "color": true //Button to change color of font  
+            });
+</script>
+
+
+<div align="left">Категория:  
+  <%= f.select :category_id, Category.all.collect {|x| [x.title, x.id]}, {}%> 
+</div>
+  <!--<%= link_to "Добавить категорию", "/categors/new", :class => "btn btn-warning" , :style => " width:33%" %> -->
+  <div class="form-actions ">
+    <%= f.submit "Обновить запись", :class => "btn btn-success", :style => " width:33%"  %>
+  <%= link_to "Удалить запись", @post, :method => :delete, :confirm => "Вы уверены?", :class => "btn btn-danger", :style => " width:33%" %>
+  <%= link_to "Вернуться", posts_path, :class => "btn btn-warning" , :style => " width:33%" %>
+    </div>
+
+<% end %>
+</fieldset> 
+  </div>
+</div>

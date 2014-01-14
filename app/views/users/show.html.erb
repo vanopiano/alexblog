@@ -1,0 +1,110 @@
+<div class="col-sm-12">
+<div class="block w100">
+    <% if @user.user_pic and (@user.user_pic.include? ".png" or @user.user_pic.include? ".jpg" or @user.user_pic.include? ".gif") %>
+            <% picture = @user.user_pic %>
+    <% else %>
+        <% picture = "/assets/default-user.png" %>
+        <% end %>
+        <div class="row user-<%= @user.id %>">
+            <div class="col-sm-10 col-md-10 col-md-offset-1">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Информация о пользователе</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <%=image_tag picture, :size => "180x180", :style => "border-radius: 20px;"%>
+                            </div>
+                            <div class="col-md-7">
+                                
+                                <table class="table table-condensed table-responsive table-user-information">
+                                    <tbody>
+                                    <tr>
+                                        <td>Уровень доступа:</td>
+                                        <% if @user.is_blogger %>
+                                        <td>Администратор</td>
+                                        <%else%>
+                                        <td>Читатель</td>
+                                        <%end%>
+                                    </tr>
+
+                                    <tr>
+                                        <td>ID:</td>
+                                        <td><%= @user.id %></td>
+                                    </tr>
+                                    
+
+                                    <tr>
+                                        <td>E-mail:</td>
+                                        <% if (current_user.is_blogger || current_user.id==@user.id) %>
+                                        <td><%= @user.email %></td>
+                                        <%else%>
+                                        <td>скрыт от вас</td>
+                                        <%end%>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Дата регистрации:</td>
+                                        <td><%= readable_date(@user.created_at) %></td>
+                                    </tr>
+                                    <% if (current_user.is_blogger || current_user.id==@user.id) %>
+                                    <tr>
+                                        <td>Последний IP входа:</td>
+                                        <td><%= @user.last_sign_in_ip %></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Текущий IP входа:</td>
+                                        <td><%= @user.current_sign_in_ip %></td>
+                                    </tr>
+                                    <%end%>
+                                    <tr>
+                                        <td>Дата последнего посещения:</td>
+                                        <td><%= readable_date(@user.last_sign_in_at) %></td>
+                                    </tr>
+                                    <% if (current_user.is_blogger || current_user.id==@user.id) %>
+                                    <tr>
+                                        <td>Количество входов:</td>
+                                        <td><%= @user.sign_in_count.to_s %></td>
+                                    </tr>
+                                    <% end %>
+                                    <% if @user.posts.size>0 %>
+                                    <tr>
+                                        <td>Количество записей</td>
+                                    </tr>
+                                    <% end %>
+                                    <tr>
+                                        <td></td><td></td>
+                                    </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                    	<% if (current_user.id != @user.id) %>
+                        <button class="btn btn-primary" type="button"
+                                data-toggle="tooltip"
+                                data-original-title="Написать пользователю"><i class="glyphicon glyphicon-envelope"></i></button>
+                                <% else %>
+                        <span>
+                            <button class="btn btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Редактировать имя, пароль, изображение"><i class="glyphicon glyphicon-edit"></i> Редактировать свои данные</button></span>
+                        <span class="pull-right">
+                            <button class="btn btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Полное удаление вашего профайла, всех ваших постов и комментариев"><i class="glyphicon glyphicon-remove"></i> Удалить</button>
+                        </span>
+                        <%end%>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+
+    </div>
+</div>

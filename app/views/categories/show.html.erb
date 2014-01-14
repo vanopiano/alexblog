@@ -1,0 +1,98 @@
+
+<div class="col-sm-12">
+<% if @posts.empty? %>
+            <h3 align="center" class="breadcrumb block-min" style="margin-top:-15px;"><%= @category.title %> - Нет записей
+            </font>
+            <% if admin? %>
+            	<div class="pull-right">
+            
+            		<%= link_to(edit_category_path(@category), :class => "btn btn-success btn-sm") do %>
+            		<i class="glyphicon glyphicon-edit"></i> Переименовать
+            		<% end %>
+            
+            		<%= link_to(@category, :class => "btn btn-danger btn-sm", :method => :delete, :confirm => "Вы уверены?") do %>
+                	<i class="gl<yphicon glyphicon-trash"></i> Удалить
+            		<% end %>
+        		</div>
+        	<% end %>
+	 </h3>
+
+                
+            <% else %>
+
+        <h3 align="center" class="breadcrumb block-min" style="margin-top:0;"><%= @category.title %><% if admin? %><div class="pull-right">
+            
+            <%= link_to(edit_category_path(@category), :class => "btn btn-success btn-sm") do %>
+            <i class="glyphicon glyphicon-edit"></i> Переименовать
+            <% end %>
+            <%= link_to(@category, :class => "btn btn-danger btn-sm", :method => :delete, :confirm => "Вы уверены?") do %>
+                <i class="glyphicon glyphicon-trash"></i> Удалить
+            <% end %>
+</div>
+<% end %>	 </h3>
+
+
+  
+</div>
+
+   
+<% @posts.each do |post| %>
+                <div class="col-md-6 col-sm-12 col-xs-12"><div align='center'>
+                 <section class="block w100 post-preview">
+                    <div class="post-small-header">
+                        <h3><%= link_to post.title, post %></h3>
+                        <p class="post-meta" align="left">
+                            <!--
+                            <% if post.user!=nil %>
+                            <code><%= link_to post.user.name, user_path(post.user.id), :class => "post-author" %></code>
+                            <% else %>
+                            <code>Нет такого юзера</code>
+                            <% end %>
+                            -->
+                            <% if post.category_id==(-1) %>
+                            <code>Без категории</code>
+                            <% else %>
+                            <code>
+                            <%= link_to post.category.title, post.category, :class => "post-category post-category-js"%>
+                            </code>
+                            <% end %>
+                            <% if admin? %>
+
+                            <font class="pull-right" color="green" size="3px"><%= time_ago_in_words post.created_at %> назад</font>
+                            <% end %>
+                        </p>
+                    </div>
+<hr />
+                    <div class="post-small-description" align='left'>
+                        <p>
+                           <%= post.body.html_safe %>
+                        </p>
+                       <% if admin? %>
+                            <div class="btn-group pull-right">
+							<%= link_to "Редактировать", edit_post_path(post), :class => "btn btn-success btn-sm"%>
+							<%= link_to "Удалить", post, :method => :delete, :confirm => "Вы уверены?", :class => "btn btn-danger btn-sm"%>
+							</div>
+						<% end %> 
+                        </div>
+                        
+                        <div class="post-small-footer" align='left'>
+                        
+                        <div class="btn-group w100">
+                        <%= link_to "Читать запись", post, :class => "btn btn-primary w50" %>
+                        <%if post.comment_threads.size>0%>
+                        <%= link_to "Комментарии ("+post.comment_threads.size.to_s+")", post_path(post, :anchor => "comments"), :class => "btn btn-info w50" %>
+                        <% else %>
+                        <%= link_to "Написать комментарий", post_path(post, :anchor => "comments"), :class => "btn btn-info w50" %>
+                        <%end%>
+                        </div>   
+                            
+       
+                        </div>
+                        </section>
+   
+
+
+   </div></div> 
+            <% end %>
+<div style="margin-left:15"><%= will_paginate @posts %></div>
+<% end %>

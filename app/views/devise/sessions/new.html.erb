@@ -1,0 +1,48 @@
+﻿<div class="col-md-12"> 
+  
+        <div class="block w100 m1" align="center">
+        
+<%= simple_form_for(resource, :as => resource_name,
+                              :url => user_session_path,
+                              :html => { :class => "form-horizontal"}) do |f| %>
+ <fieldset>
+
+<!-- Form Name -->
+<legend>Войдите пожалуйста</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-sm-4 control-label" for="textinput">Введите E-mail</label>  
+  <div class="col-sm-8 col-md-6 col-lg-4">
+  <%= f.email_field :email, :class => "form-control input-md", :required => true, :autofocus => true, :placeholder => ""   , :style => " width:100%" %>
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-sm-4 control-label" for="passwordinput">Введите пароль</label>
+  <div class="col-sm-8 col-md-6 col-lg-4">
+  <%= f.password_field :password, :required => true, :placeholder => "", :style => " width:100%" ,:class => "form-control input-md" %>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-sm-4 control-label" for="checkboxes"></label>
+  <div class="col-sm-8 col-md-6 col-lg-4">
+    <%= f.check_box :remember_me%> <label class="control-label">Запомнить меня</label>
+  </div>
+</div>
+
+</fieldset>
+
+ <div class="form-actions " align = "center">
+    <%= f.button :submit, "Войти", :class => "btn btn-success", :style => " width:100%" %>
+    <h4>ИЛИ</h4>
+     <%= link_to "Войти с помощью Google", user_omniauth_authorize_path(:google_oauth2), :class => "btn btn-danger " , :style => " width:100%" %>
+    </div>
+
+<% end %>
+
+</div>
+</div>

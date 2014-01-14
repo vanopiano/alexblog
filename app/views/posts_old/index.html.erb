@@ -1,0 +1,9 @@
+<%= render :partial => 'post', :collection => @posts %>
+<hr />
+<%- if user_signed_in? && is_blogger? %>
+    <small>
+      <%= link_to 'Добавить запись', new_post_path, :class => "button rounded" %>
+    </small>
+<%- end %>
+
+<%= will_paginate @posts %>

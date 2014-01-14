@@ -1,0 +1,17 @@
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Блог Ивана - <%= render_title %></title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= csrf_meta_tags %>
+    <link href="/css/bootstrap.min.css?body=1" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+  	<%= render 'common/session' %>
+    <%= yield %>
+    <%= javascript_include_tag "application" %>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+  </body>
+</html>

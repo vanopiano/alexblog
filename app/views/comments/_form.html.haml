@@ -1,0 +1,6 @@
+.comment-form
+	= simple_form_for @new_comment, :remote => true do |f|
+		= f.text_area :body, :rows =>"4", :class => "form-control w", :placeholder => "Введите текст комментария...",  :style => "margin-bottom:10px;"
+		= f.input :commentable_id, :as => :hidden, :value => @new_comment.commentable_id
+		= f.input :commentable_type, :as => :hidden, :value => @new_comment.commentable_type
+		= f.button :submit, "Добавить комментарий",:class => "btn btn-info pull-left", :disable_with => "Отправка…", :style => "width:100%;"

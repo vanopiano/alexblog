@@ -1,0 +1,359 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require messenger-spinner
+ *= require messenger-theme-future
+ *= require messenger
+ *= require_self
+ *= require_tree .
+ */
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+        /*background: url(http://subtlepatterns.com/patterns/dark_dotted.png) repeat #222;*/
+
+
+body {
+height: 100%;
+padding-top:0px;
+  /*
+    background: url('/assets/wall_2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    */
+
+/*color: #242424;
+background-color: #EAEAEA;
+background: url(/assets/body.gif);
+background-repeat: repeat;
+
+color:#fff;
+
+*/
+background: #00aa77;
+background: url("/assets/paper_005.jpg");
+
+background-repeat: repeat;
+
+    /*
+    font: 62.5% Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+line-height: 3.2em;
+color: #443B3B;
+background: url(/assets/body-background.jpg) repeat left top;
+
+    
+    */
+    /*background-color:#333;*/
+    
+
+overflow-x: hidden;
+-webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+
+.comments_block{
+  padding: 20;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.block-min {
+
+padding:6px 12px;
+
+border: 2px solid #E4E4E4;
+
+background-color: rgba(255, 255, 255, 0.3);
+background-color: #FFF;
+background-image: url(/assets/block-background.png);
+
+background-repeat: repeat;
+position: relative;
+
+border-radius: 6px;
+
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.block {
+
+padding:12px;
+
+border: 2px solid #E4E4E4;
+
+background-color: rgba(255, 255, 255, 0.3);
+background-color: #FFF;
+background-image: url(/assets/block-background.png);
+
+background-repeat: repeat;
+position: relative;
+
+border-radius: 6px;
+
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.w75 {
+  width: 75%
+}
+.w25 {
+  width: 25%
+}
+.w20 {
+  width: 20%
+}
+.w50 {
+  width: 50%
+}
+.w80 {
+  width: 80%
+}
+.w90 {
+  width: 90%
+}
+.w95 {
+  width: 95%
+}
+.w50 {
+  width: 50%
+}
+.w40 {
+  width:40%;
+}
+.w100 {
+  width:100%;
+}
+.w98 {
+  width:98%;
+}
+.w99 {
+  width:99%;
+}
+.w95 {
+  width:95%;
+}
+
+
+.comment-form{
+  margin-bottom: 70px;
+}
+
+.post-preview  {
+  margin-bottom: 30px;
+  height:450px;
+
+   border-radius: 5px 5px 0px 0px;
+    padding:12px;
+   
+    color: #000;
+}
+.post-big-description {
+  padding: 20;
+  font-size: 100%;
+}
+.post-small-description {
+  margin-top: -15;
+  height:310px;
+  overflow: hidden;
+}
+.post-small-header {
+  margin-top: -20;
+  margin-bottom: -15;
+  height:80px;
+  overflow: hidden;
+}
+.post-small-footer {
+  margin-top: 10;
+  margin-bottom: -5;
+  height:65px;
+}
+
+.m05 {
+  margin: 0.5%;
+}
+.m1 {
+  margin: 1%;
+}
+.m02 {
+  margin: 0.2%;
+}
+
+.m10 {
+  margin: 10px
+}
+
+
+kbd{
+border:1px solid gray;
+font-size:1.2em;
+box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+margin:2px 3px;
+padding:1px 5px;
+}
+
+
+
+#sidebar.affix {
+   position:static;
+}
+
+
+#sharebar.affix {
+   position:static;
+}
+
+@media (min-width: 992px) {
+ #sidebar.affix {
+      position: fixed;
+      top: 40;
+      width:22%;
+  } 
+ #sharebar.affix {
+      position: fixed;
+      top: 65;
+      width:16%;
+  } 
+
+}
+
+
+.share-style {
+      margin-top:15px;
+}
+
+
+@media (min-width: 768px) {
+body {
+  padding-top:55px;
+  height: 100%;
+ }
+
+/*
+For auto dropdowns
+*/
+ ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block; 
+/*
+For auto dropdowns
+*/
+}
+}
+
+
+
+
+body>.navbar {
+position: static;
+z-index:1000;
+border-width:0 0 1px;
+border-radius:0;
+}
+
+
+@media (min-width: 720px) {
+ 	body>.navbar {
+ 	position:fixed;
+ 	right:0;left:0;
+ 	z-index:1030;
+ 	border-radius:0;
+ 	}
+ }
+
+
+.categoryupdown{
+    /* The expandable lists */
+    display:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:100%;
+}
+
+.panel-collapse {
+  display:none;
+}
+
+
+/*
+For admin usertable
+*/
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+
+
+
+
+
+.nav>li>a>img {
+	margin:-15 5 -15 0;
+}
+
+a.list-group-item.active {
+border-radius: 6px;
+
+background-color: rgba(66, 139, 202, 0.77);
+background-color: #000;
+
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+
+.breadcrumb>li+li:before {
+content: "->";
+padding: 0 5px;
+color: #949191;
+}

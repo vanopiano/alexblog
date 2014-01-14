@@ -1,0 +1,51 @@
+﻿<div align='center' style="margin-top:-20">
+        <div class="block w100">
+           <!-- <h1 align="center">Новая запись</h1> -->
+    
+<%= simple_form_for @post, :html => { :class => "form-horizontal"} do |f| %>
+  
+<fieldset>
+
+<!-- Form Name -->
+<legend>Новая запись</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <%= f.text_field :title, :class => "form-control input-md", :required => true, :autofocus => true, :placeholder => "Введите название"   , :style => " width:96%" %>
+  
+</div>
+
+
+ 
+
+ <%= f.text_area :body , :rows => 10, :id => "post_body", :style => "resize: vertical;", :placeholder => "Введите текст ...", :class => "form-control w"%>
+ <script src="/js/wysihtml5-0.3.0.min.js"></script>
+<script src="/js/bootstrap3-wysihtml5.js"></script>
+<!--<script src="/js/jquery.autosize.min.js"></script>-->
+<script>
+
+    $('.w').wysihtml5({
+                "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+                "emphasis": true, //Italics, bold, etc. Default true
+                "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+                "html": true, //Button which allows you to edit the generated HTML. Default false
+                "link": true, //Button to insert a link. Default true
+                "image": false, //Button to insert an image. Default true,
+                "color": true //Button to change color of font  
+            });
+    //$('.w').autosize();
+</script>
+
+
+<div align="left">Категория:  
+  <%= f.select :category_id, Category.all.collect {|x| [x.title, x.id]}, {}%> 
+</div>
+  <div class="form-actions ">
+    <%= f.submit "Добавить запись", :class => "btn btn-primary", :style => " width:49%"  %>
+  <%= link_to "Вернуться", posts_path, :class => "btn btn-warning" , :style => " width:50%;" %>
+  </div>
+
+<% end %>
+</fieldset>  
+  </div>
+</div>

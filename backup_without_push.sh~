@@ -1,0 +1,12 @@
+filename="backup_new_"`eval date +%Y-%m-%d"_"%H-%M`".tgz"
+#tar -czvf ../backup.tar.gz .
+#bundle exec rake assets:precompile
+git add .
+git add -u
+git commit -m "last commit"
+tar -czf ../blog-backup/$filename .
+echo "#################################################"
+echo "###        SUCCESSFULLY    ARCHIVED          ####"
+echo "#################################################"
+echo "### Git -> pushing and deployment started..."
+git push

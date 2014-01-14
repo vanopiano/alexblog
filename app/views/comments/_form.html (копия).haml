@@ -1,0 +1,6 @@
+.comm
+= simple_form_for @new_comment, :remote => true do |f|
+        = f.text_field :body, :input_html => { :rows => "2" }, :label => false
+        = f.input :commentable_id, :as => :hidden, :value => @new_comment.commentable_id
+        = f.input :commentable_type, :as => :hidden, :value => @new_comment.commentable_type
+        = f.button :submit, :class => "btn btn-primary", :disable_with => "Отправка…"

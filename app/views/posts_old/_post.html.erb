@@ -1,0 +1,16 @@
+<div id="post-<%= post.id %>">
+  <h1 class="postTitle"><%= link_to post.title, post %></h1>
+  <p class="date"><small><%= readable_date(post.created_at) %></small></p>
+  <div class="post">
+    <%= raw textilize(post.body) %>
+  </div>
+  <%- if user_signed_in? && is_blogger? %>
+  
+<ul class="button-group round">
+ 	<li> <%= link_to 'Редактировать', edit_post_path(post), :class => "button success" %></li>
+    <li>  <%= link_to 'Удалить', post, :method => :delete, :class => "button alert"  %></li>
+</ul>
+
+  <%- end %>
+
+</div>

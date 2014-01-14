@@ -1,0 +1,23 @@
+%div.comment{ :id => "comment-#{comment.id}", :style => "margin-top:10"}
+	- if current_user 
+		- if (current_user.id==comment.user.id || admin?)
+			= link_to "Удалить", comment_path(comment), :method => :delete, :remote => true, :confirm => "Удалить этот комментарий?", :disable_with => "Удалить", :class => 'btn-xs btn btn-danger pull-right'
+		= link_to "Ответить", '#', :confirm => "ответить на коммент?", :class => 'btn btn-info btn-xs pull-right'
+	- if comment.user.user_pic
+		-if comment.user.user_pic.include? ".png" or comment.user.user_pic.include? ".jpg" or comment.user.user_pic.include? ".gif"
+			=link_to(image_tag(comment.user.user_pic, :size => "64x64", :style => "border-radius: 20px;"), user_path(comment.user), :class => "pull-left ", :style => "margin-right:10;")
+		- else 
+			=link_to(image_tag("/assets/default-user.png", :size => "64x64", :style => "border-radius: 20px;"), user_path(comment.user), :class => "pull-left ", :style => "margin-right:10;")
+	- else 
+		=link_to(image_tag("/assets/default-user.png", :size => "64x64", :style => "border-radius: 20px;"), user_path(comment.user), :class => "pull-left ", :style => "margin-right:10;")
+	%div.media-body
+		- if (comment.user.id == comment_user_id)
+			%h4.media-heading=comment.user.name
+		- else 
+			%h4.media-heading=link_to(comment.user.name, user_path(comment.user))
+		%small
+			= comment.updated_at.getlocal.strftime("%d.%m.%Y")
+			в
+			= comment.updated_at.getlocal.strftime("%H:%M")
+		%h5=comment.body.html_safe
+	%hr.w100

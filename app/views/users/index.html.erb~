@@ -1,0 +1,103 @@
+<% javascript 'users.js' %>
+<div class="col-sm-12">
+<h4 align="center" class="breadcrumb" style="margin-top:0;">Управление пользователями</h4>
+
+<div class="block w100">
+<% @users.each do |user| %>
+    <% if user.user_pic and (comment.user.user_pic.include? ".png" or comment.user.user_pic.include? ".jpg" or comment.user.user_pic.include? ".gif") %>
+            <% picture = comment.user.user_pic %>
+    <% else %>
+        <% picture = "/assets/default-user.png" %>
+        <% end %>
+        <div class="row user-row">
+            <div class="col-md-1">
+            <%=image_tag picture, :size => "50x50", :style => "border-radius: 10px;"%>
+
+            </div>
+            <div class="col-md-10">
+                <strong><%= user.name %></strong><br>
+                <span class="text-muted">Уровень доступа: Администратор</span>
+            </div>
+            <div class="col-md-1 dropdown-user" data-for=".user-<%= user.id %>">
+                <i class="glyphicon glyphicon-chevron-down text-muted"></i>
+            </div>
+        </div>
+        <div class="row user-infos user-<%= user.id %>">
+            <div class="col-sm-10 col-md-10 col-md-offset-1">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Информация о пользователе</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <%=image_tag picture, :size => "100x100", :style => "border-radius: 20px;"%>
+                            </div>
+                            <div class="col-md-6">
+                                <strong><%= user.name %></strong><br>
+                                <table class="table table-condensed table-responsive table-user-information">
+                                    <tbody>
+                                    <tr>
+                                        <td>E-mail:</td>
+                                        <td><%= user.email %></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Уровень доступа:</td>
+                                        <td>Администратор</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дата регистрации:</td>
+                                        <td><%= user.created_at %></td>
+                                    </tr>
+                                    <% if user.posts.size>0 %>
+                                    <tr>
+                                        <td>Количество записей</td>
+                                        <td><%= user.posts.size.to_s %></td>
+                                    </tr>
+                                    <% end %>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-sm btn-primary" type="button"
+                                data-toggle="tooltip"
+                                data-original-title="Send message to user"><i class="glyphicon glyphicon-envelope"></i></button>
+                        <span class="pull-right">
+                            <button class="btn btn-sm btn-warning" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Edit this user"><i class="glyphicon glyphicon-edit"></i></button>
+                            <button class="btn btn-sm btn-danger" type="button"
+                                    data-toggle="tooltip"
+                                    data-original-title="Remove this user"><i class="glyphicon glyphicon-remove"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+       <%end%> 
+
+    </div>
+   
+    
+<!--
+- if comment.user.user_pic
+        -if comment.user.user_pic.include? ".png" or comment.user.user_pic.include? ".jpg" or comment.user.user_pic.include? ".gif"
+            =link_to(image_tag(comment.user.user_pic, :size => "64x64", :style => "border-radius: 20px;"), user_path(comment.user), :class => "pull-left ", :style => "margin-right:10;")
+        - else 
+            =link_to(image_tag("/assets/default-user.png", :size => "64x64", :style => "border-radius: 20px;"), user_path(comment.user), :class => "pull-left ", :style => "margin-right:10;")
+    - else 
+        =link_to(image_tag("/assets/default-user.png", :size => "64x64", :style => "border-radius: 20px;"), user_path(comment.user), :class => "pull-left ", :style => "margin-right:10;")
+        -->
+
+Время сервера: 
+<p>
+        <%= Time.zone.now %>
+        <p>
+        <%= Time.now %>
+        
+</p></p>
+</div>
