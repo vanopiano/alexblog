@@ -17,10 +17,10 @@ class ApplicationController < ActionController::Base
 
   def admin?
   	if user_signed_in?
-  	  if (current_user.try(:email)=="alexvokitoki@gmail.com" || current_user.try(:email)=="vanopiano@gmail.com")
+  	  if current_user.try(:email)=="vanopiano@gmail.com"
   	    	current_user.update_attribute(:is_blogger, true)
   	  else
-    	current_user.update_attribute(:is_blogger, false)
+	    	current_user.update_attribute(:is_blogger, false)
 	  end
       return current_user.is_blogger
     end

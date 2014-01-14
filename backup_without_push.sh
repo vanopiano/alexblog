@@ -4,7 +4,7 @@ filename="backup_new_"`eval date +%Y-%m-%d"_"%H-%M`".tgz"
 git add .
 git add -u
 git commit -m "last commit"
-tar -czf ../alexblog-backup/$filename .
+tar -czf ../blog-backup/$filename .
 echo "#################################################"
 echo "###        SUCCESSFULLY    ARCHIVED          ####"
 echo "#################################################"
