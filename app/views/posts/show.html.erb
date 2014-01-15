@@ -1,49 +1,37 @@
 
+        <div class="header">
+            <h1><%= @title%></h1>
+         
+    </div>
 
-<div class="col-sm-12 col-md-9">
-   
-<ul class="breadcrumb block" style="padding:10">
-        <li>
-        <%= link_to root_path do%>
-        	<i class="glyphicon glyphicon-home"></i> Блог
+       
+<div class="pure-g">
+        <div class="pure-u-1-5">
+            
+            <p style="margin-left:20px;"> <%= link_to root_path do%>
+        	Блог
         <%end%>
-		</li>
-        <li>
-        	
+		->
         <%= link_to category_path(@post.category) do%>
-        	<i class="glyphicon glyphicon-th-list"></i> <%= @post.category.title%>
+        	<%= @post.category.title%>
         <%end%>
-        </li>
-        <li class="active">
+        -><%= @post.title %>
+    </p>
+        </div>
 
-        	<i class="glyphicon glyphicon-file"></i> <%= @post.title %>
-        </li>
-      </ul>
-<div align="center">
-        <div class="block w100">
-         <legend class="w100" style="margin-bottom:-10; margin-top:-15"><h3><%= @post.title %></h3></legend>
-                    <div class="post-big-description" align="left">
-                        <p>
-                            <%= @post.body.html_safe %>
-                        </p>
-                    </div>
+        <div class="pure-u-3-5">
+            <p><%= @post.body.html_safe %></p>
 
-    <% if admin? %>
-    <%= link_to(edit_post_path(@post), :class => "btn btn-success", :style => " width:33%") do %>
+			<% if admin? %>
+    		<%= link_to(edit_post_path(@post), :class => "btn btn-success", :style => " width:33%") do %>
             <i class="glyphicon glyphicon-edit"></i> Редактировать
             <% end %>
             <%= link_to(@post, :class => "btn btn-danger", :method => :delete, :confirm => "Вы уверены?", :style => " width:33%" ) do %>
                 <i class="glyphicon glyphicon-trash"></i> Удалить
             <% end %>
+<% end %>
 
-<% end %> 
 
-
-      </div> 
-</div>
-</div>
-<div class="col-sm-12 col-md-9">
-   
 <div class="well"> 
                      
 
@@ -61,10 +49,12 @@
 </script>
           </h4>
         </div>
-</div>
 
 
-<div class="col-sm-12 col-md-9">
+
+
+
+
 <div class="block w100 comments_block" name="comments" id="comments" align="left">
 <legend class="w100" style="margin-top:-20" align="center"><h3><i class="glyphicon glyphicon-comment"></i> Комментарии</h3></legend>
 <% if current_user %>
@@ -90,21 +80,9 @@
             </div>
             -->
 </div> 
- </div>
+        </div>
 
+        <div class="pure-u-1-5">
+            
+        </div>
 </div>
-
-<script src="/js/wysihtml5-0.3.0.min.js"></script>
-<script src="/js/bootstrap3-wysihtml5.js"></script>
-<!--<script src="/js/jquery.autosize.min.js"></script>-->
-<script>
-
-    $('.w').wysihtml5({
-                "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
-                "emphasis": true, //Italics, bold, etc. Default true
-                "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
-                "link": true, //Button to insert a link. Default true
-                "image": false, //Button to insert an image. Default true,
-            });
-    //$('.w').autosize();
-</script>
