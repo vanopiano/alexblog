@@ -24,49 +24,6 @@
 }
 
 
-.w75 {
-  width: 75%
-}
-.w25 {
-  width: 25%
-}
-.w20 {
-  width: 20%
-}
-.w50 {
-  width: 50%
-}
-.w80 {
-  width: 80%
-}
-.w90 {
-  width: 90%
-}
-.w95 {
-  width: 95%
-}
-.w50 {
-  width: 50%
-}
-.w49 {
-  width: 49%
-}
-.w40 {
-  width:40%;
-}
-.w100 {
-  width:100%;
-}
-.w98 {
-  width:98%;
-}
-.w99 {
-  width:99%;
-}
-.w95 {
-  width:95%;
-}
-
 
 .comment-form{
   margin-bottom: 70px;
@@ -167,203 +124,29 @@ a {
 
 
 
-@font-face {
-	font-family: 'ecoico';
-	src:url('../fonts/timelineicons/ecoico.eot');
-	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/timelineicons/ecoico.woff') format('woff'),
-		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
-		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
-	font-weight: normal;
-	font-style: normal;
-} /* Made with http://icomoon.io/ */
 
 
+.pure-button-success,
+        .pure-button-error,
+        .pure-button-warning,
+        .pure-button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
 
-.cbp_tmtimeline {
-	margin: 30px 0 0 0;
-	padding: 0;
-	list-style: none;
-	position: relative;
-} 
+        .pure-button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
 
-/* The line */
-.cbp_tmtimeline:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 10px;
-	background: #F18A06;
-	left: 20%;
-	margin-left: -10px;
-}
+        .pure-button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
 
-.cbp_tmtimeline > li {
-	position: relative;
-}
+        .pure-button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
 
-/* The date/time */
-.cbp_tmtimeline > li .cbp_tmtime {
-	display: block;
-	width: 25%;
-	padding-right: 100px;
-	position: absolute;
-}
-
-.cbp_tmtimeline > li .cbp_tmtime span {
-	display: block;
-	text-align: right;
-}
-
-.cbp_tmtimeline > li .cbp_tmtime span:first-child {
-	font-size: 0.9em;
-	color: #bdd0db;
-}
-
-.cbp_tmtimeline > li .cbp_tmtime span:last-child {
-	font-size: 2.9em;
-	color: #414141;
-}
-
-.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-	color: #6d6d6d;
-}
-
-/* Right content */
-.cbp_tmtimeline > li .cbp_tmlabel {
-	margin: 0 0 15px 25%;
-	background: #6D6D6D;
-	color: #fff;
-	padding: 2em;
-	font-size: 1.2em;
-	font-weight: 300;
-	line-height: 1.4;
-	position: relative;
-	border-radius: 5px;
-}
-
-.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-	background: #414141;
-}
-
-.cbp_tmtimeline > li .cbp_tmlabel h2 { 
-	margin-top: 0px;
-	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.4);
-}
-
-/* The triangle */
-.cbp_tmtimeline > li .cbp_tmlabel:after {
-	right: 100%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-right-color: #414141;
-	border-width: 10px;
-	top: 10px;
-}
-
-.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-	border-right-color: #6d6d6d;
-}
-
-/* The icons */
-.cbp_tmtimeline > li .cbp_tmicon {
-	width: 40px;
-	height: 40px;
-	font-family: 'ecoico';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	font-size: 1.4em;
-	line-height: 40px;
-	-webkit-font-smoothing: antialiased;
-	position: absolute;
-	color: #fff;
-	background: #EC7415;
-	border-radius: 50%;
-	box-shadow: 0 0 0 8px #F18A06;
-	text-align: center;
-	left: 20%;
-	top: 0;
-	margin: 0 0 0 -25px;
-}
-
-.cbp_tmicon-phone:before {
-	content: "\e000";
-}
-
-.cbp_tmicon-screen:before {
-	content: "\e001";
-}
-
-.cbp_tmicon-mail:before {
-	content: "\e002";
-}
-
-.cbp_tmicon-earth:before {
-	content: "\e003";
-}
-
-/* Example Media Queries */
-@media screen and (max-width: 65.375em) {
-
-	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
-		font-size: 1.5em;
-	}
-}
-
-@media screen and (max-width: 47.2em) {
-	.cbp_tmtimeline:before {
-		display: none;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmtime {
-		width: 100%;
-		position: relative;
-		padding: 0 0 20px 0;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmtime span {
-		text-align: left;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmlabel {
-		margin: 0 0 30px 0;
-		padding: 1em;
-		font-weight: 400;
-		font-size: 95%;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmlabel:after {
-		right: auto;
-		left: 20px;
-		border-right-color: transparent;
-		border-bottom-color: #414141;
-		top: -20px;
-	}
-
-	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-		border-right-color: transparent;
-		border-bottom-color: #6d6d6d;
-	}
-
-	.cbp_tmtimeline > li .cbp_tmicon {
-		position: relative;
-		float: right;
-		left: auto;
-		margin: -55px 5px 0 0px;
-	}	
-}
-
-
-
-.btn-primary, .btn-info { background-color: #EC7415 !important; border-color: #EC7415; } //button
-{ background-color: #EC7415 !important; border-color: #EC7415;} //button
-
+        .pure-button-secondary {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }

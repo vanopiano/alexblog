@@ -13,7 +13,7 @@
 
 //= require jquery
 //= require jquery_ujs
-//= require ui.js
+
 
 //= require messenger
 //= require flasher.js
