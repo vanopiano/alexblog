@@ -18684,3 +18684,234 @@ ActionController::RoutingError (No route matches [GET] "/posts/css/bootstrap3-wy
 
 Started GET "/assets/icons.png" for 127.0.0.1 at 2014-01-15 14:56:06 +0600
 Served asset /icons.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+No secret token environment variable set
+Unable to get OPENSHIFT_SECRET_TOKEN, using default
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT 6 OFFSET 0
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 3 AND "comments"."commentable_type" = 'Post'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 2 AND "comments"."commentable_type" = 'Post'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."commentable_id" = 1 AND "comments"."commentable_type" = 'Post'[0m
+  Rendered posts/index.html.erb within layouts/application (201.4ms)
+Compiled messenger-spinner.css  (0ms)  (pid 19736)
+Compiled messenger-theme-future.css  (0ms)  (pid 19736)
+Compiled messenger.css  (0ms)  (pid 19736)
+Compiled purecss/base.css  (0ms)  (pid 19736)
+Compiled purecss/buttons.css  (0ms)  (pid 19736)
+Compiled purecss/forms.css  (0ms)  (pid 19736)
+Compiled purecss/grids.css  (0ms)  (pid 19736)
+Compiled purecss/menus.css  (0ms)  (pid 19736)
+Compiled purecss/tables.css  (0ms)  (pid 19736)
+Compiled purecss.css  (60ms)  (pid 19736)
+Compiled application.css  (106ms)  (pid 19736)
+Compiled jquery.js  (1ms)  (pid 19736)
+Compiled jquery_ujs.js  (0ms)  (pid 19736)
+Compiled messenger.js  (0ms)  (pid 19736)
+Compiled application.js  (52ms)  (pid 19736)
+Completed 200 OK in 416ms (Views: 412.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/messenger-spinner.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /messenger-spinner.css - 200 OK (3ms)
+
+
+Started GET "/assets/messenger.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /messenger.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/purecss/base.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /purecss/base.css - 200 OK (2ms)
+
+
+Started GET "/assets/messenger-theme-future.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /messenger-theme-future.css - 200 OK (2ms)
+
+
+Started GET "/assets/purecss/buttons.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /purecss/buttons.css - 200 OK (2ms)
+
+
+Started GET "/assets/purecss/forms.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /purecss/forms.css - 200 OK (2ms)
+
+
+Started GET "/assets/purecss/grids.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /purecss/grids.css - 200 OK (2ms)
+
+
+Started GET "/assets/purecss/menus.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /purecss/menus.css - 200 OK (2ms)
+
+
+Started GET "/assets/purecss/tables.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /purecss/tables.css - 200 OK (30ms)
+
+
+Started GET "/assets/purecss.css?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /purecss.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/messenger.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /messenger.js - 200 OK (2ms)
+
+
+Started GET "/assets/ui.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /ui.js - 200 OK (1ms)
+
+
+Started GET "/assets/flasher.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /flasher.js - 200 OK (1ms)
+
+
+Started GET "/assets/share42.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /share42.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /jquery.easing.1.3.js - 200 OK (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /comments.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:38:32 +0300
+Served asset /application.js - 200 OK (13ms)
+
+
+Started GET "/fonts/timelineicons/ecoico.woff" for 127.0.0.1 at 2014-01-15 17:38:33 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/timelineicons/ecoico.woff"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vokitoki/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/fonts/timelineicons/ecoico.ttf" for 127.0.0.1 at 2014-01-15 17:38:33 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/timelineicons/ecoico.ttf"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vokitoki/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/fonts/timelineicons/ecoico.svg" for 127.0.0.1 at 2014-01-15 17:38:33 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/timelineicons/ecoico.svg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vokitoki/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2014-01-15 17:38:33 +0300
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vokitoki/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vokitoki/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
