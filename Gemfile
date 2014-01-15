@@ -20,7 +20,7 @@ end
 group :development, :test do
   gem 'sqlite3'
 end
-
+gem 'turbolinks'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -49,6 +49,6 @@ gem 'babosa'
 #for friendly_id
 gem 'haml'
 gem 'acts_as_commentable_with_threading'
-#for editor in Rails projects.
 
-#end
+
+gem 'purecss-rails'

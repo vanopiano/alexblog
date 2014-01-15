@@ -12,8 +12,8 @@
 //
 
 //= require jquery
-//= require bootstrap.min.js
 //= require jquery_ujs
+//= require ui.js
 
 //= require messenger
 //= require flasher.js
@@ -79,4 +79,4 @@ $(document).ready(function(){
         e.preventDefault();
     })
 
-});
+};

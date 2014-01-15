@@ -1,9 +1,46 @@
-<h1 id="section2">Блог Алексея</h1>
-          <p>Здесь вы можете читать записи о железе, например sim-900, STM-32 и т.д.
-</p>
 
-<div class="col-sm-12">
-      
+        <div class="header">
+            <h1>Блог Алексея</h1>
+          <h2>Здесь вы можете читать записи о железе, например sim-900, STM-32 и т.д.
+</h2>
+    </div>
+
+        <div class="content">
+            
+
+				<% @posts.each do |post| %>
+            <h2 class="content-subhead"><%= link_to post.title, post %></h2>
+            <p><%= post.body.html_safe %></p>
+<% end %>
+
+            <div class="pure-g-r">
+                <div class="pure-u-1-4">
+                    <img src="http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg" alt="Peyto Lake">
+                </div>
+                <div class="pure-u-1-4">
+                    <img src="http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg" alt="Train">
+                </div>
+                <div class="pure-u-1-4">
+                    <img src="http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg" alt="T-Shirt Store">
+                </div>
+                <div class="pure-u-1-4">
+                    <img src="http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg" alt="Mountain">
+                </div>
+            </div>
+
+            <h2 class="content-subhead">Try Resizing your Browser</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+
+
+
+
+
+
+
+
 <% if @posts.empty? %>
                 
             <h3 align="center" class="breadcrumb block-min">Нет записей</h3>
@@ -13,61 +50,56 @@
             <h3 align="center" class="breadcrumb block-min">Недавние записи</h3>
             
    </div>
+
+
+<ul class="cbp_tmtimeline">
+
    
 <% @posts.each do |post| %>
-
-
-<div class="panel panel-default">
-                   <div class="panel-heading"><a href="#" class="pull-right"><%= time_ago_in_words post.created_at %> назад</a>
-                   	<h4><%= link_to post.title, post %></h4></div>
-                    <div class="panel-body">
-
-                    	<% if post.category_id==(-1) %>
+<li>
+		<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span><%= time_ago_in_words post.created_at %> назад</a></span> <span>Время</span></time>
+		<div class="cbp_tmicon cbp_tmicon-earth"></div>
+		<div class="cbp_tmlabel">
+			<h2><%= link_to post.title, post %></h2>
+			<p class="pull-right">
+				<% if post.category_id==(-1) %>
                             <p>Без категории</p>
                             <% else %>
                             <p>
                             <%= link_to post.category.title+" категория", post.category, :class => ""%> 
                             </p>
                       <% end %>
-
-                      <div class="clearfix"></div>
-                      <hr>
-											<%= post.body.html_safe %>
-											<hr>
-
-											<% if admin? %>
+                    </p>
+			<p><%= post.body.html_safe %></p>
+			<% if admin? %>
                         <div class="btn-group pull-right">
 											  <%= link_to "Редактировать", edit_post_path(post), :class => "btn btn-success btn-sm"%>
 											  <%= link_to "Удалить", post, :method => :delete, :confirm => "Вы уверены?", :class => "btn btn-danger btn-sm"%>
 											</div>
 												<% end %> 
-                      <div class="panel-footer"> 
-       									<%= link_to "Читать запись", post, :class => "btn btn-primary" %>
+												<%= link_to "Читать запись", post, :class => "btn btn-primary" %>
                         <%if post.comment_threads.size>0%>
                         <%= link_to "Комментарии ("+post.comment_threads.size.to_s+")", post_path(post, :anchor => "comments"), :class => "btn btn-info" %>
                         <% else %>
                         <%= link_to "Написать комментарий", post_path(post, :anchor => "comments"), :class => "btn btn-info" %>
-                        <%end%>                 
-                      </div>  
-                      
-                    </div>
-       
-</div> 
+                        <%end%>  
+		</div>
+	</li>
+
             <% end %>
-            <hr />
+            </ul>
             <div style="margin-left:15"><%= will_paginate @posts %></div>
 
-           <div class="col-sm-12 text-center">
-                        <ul class="pagination center-block" style="display:inline-block;">
-                          <li><a href="#">«</a></li>
-                          <li><a href="#">1</a></li>
-                          <li><a href="#">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">4</a></li>
-                          <li><a href="#">5</a></li>
-                          <li><a href="#">»</a></li>
-                        </ul>
-                      </div>
-          <hr />
 
 <% end %>
+
+
+
+
+            
+        </div>
+
+
+
+
+
